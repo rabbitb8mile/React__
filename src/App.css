@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.usercard{
+    background-color: rgb(38, 212, 38);
+    border : 2px solid black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    width:400px;
+    font-size: 12px;
+    margin: 20px;
+    padding: 50px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    text-align: center;
+    background-color: orange;
+    width: 600px;
+    margin: auto;
+    border: 10px solid;
+    border-color: red;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tile{
+    background-color: yellow;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-box{
+    border: 2px solid black;
+    padding : 1rem;
+    margin: 1rem;
+    border-radius: 10px;
 }
